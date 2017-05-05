@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="ThinkTitleView">
+        <attr name="left_image_src" format="reference"/>
+        <attr name="right_image_margin" format="reference|dimension"/>
+        <attr name="triangle_width" format="reference|dimension"/>
+        <!--最短的时候相对于最长的倍数-->
+        <attr name="min_width" format="float"/>
+    </declare-styleable>
+</resources>

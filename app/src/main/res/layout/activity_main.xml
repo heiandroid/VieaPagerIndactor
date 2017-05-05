@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <sdx.viewpagerindicator.ThinkTitleView
+        android:id="@+id/indicator"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:textSize="15sp"
+        app:left_image_src="@mipmap/iv_back_white"
+        app:min_width="0.8"
+        app:right_image_margin="3dp"
+        app:triangle_width="30dp"/>
+</RelativeLayout>
